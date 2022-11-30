@@ -1,0 +1,41 @@
+2022-09-02 20:14:34.980  INFO 9168 --- [main] c.a.f.FlightreservationApplication       : Starting FlightreservationApplication using Java 15.0.2 on DESKTOP-LMDBIM9 with PID 9168 (E:\SpringBoot Project\ProjectDoneByMe\flightreservation\target\classes started by Akash in E:\SpringBoot Project\ProjectDoneByMe\flightreservation)
+2022-09-02 20:14:34.985  INFO 9168 --- [main] c.a.f.FlightreservationApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-02 20:14:35.928  INFO 9168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-02 20:14:36.000  INFO 9168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2022-09-02 20:14:36.731  INFO 9168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-02 20:14:36.732  INFO 9168 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-09-02 20:14:36.733  INFO 9168 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-09-02 20:14:36.733  INFO 9168 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-02 20:14:36.737  INFO 9168 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-09-02 20:14:36.749  INFO 9168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-02 20:14:36.749  INFO 9168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-02 20:14:37.181  INFO 9168 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-09-02 20:14:37.193  INFO 9168 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2022-09-02 20:14:37.193  INFO 9168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2133 ms
+2022-09-02 20:14:37.353  INFO 9168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-02 20:14:37.618  INFO 9168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-02 20:14:37.691  INFO 9168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-02 20:14:37.835  INFO 9168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-02 20:14:38.099  INFO 9168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-02 20:14:38.257  INFO 9168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-09-02 20:14:39.077  INFO 9168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-02 20:14:39.110  INFO 9168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 20:14:39.908  WARN 9168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-02 20:14:40.142  INFO 9168 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-09-02 20:14:40.420  INFO 9168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2022-09-02 20:14:40.437  INFO 9168 --- [main] c.a.f.FlightreservationApplication       : Started FlightreservationApplication in 6.057 seconds (JVM running for 7.873)
+2022-09-02 20:14:46.688  INFO 9168 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-02 20:14:46.688  INFO 9168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-02 20:14:46.689  INFO 9168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-02 20:14:46.744  INFO 9168 --- [http-nio-8080-exec-1] c.a.f.controller.ReservationController   : Inside showCompleteReservation() invoked with the flight id:2
+2022-09-02 20:14:46.849  INFO 9168 --- [http-nio-8080-exec-1] c.a.f.controller.ReservationController   : Flight is:Flight [flightNumber=AA2, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 05:14:07.0]
+2022-09-02 20:14:52.921  INFO 9168 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Inside showLoginPage()
+2022-09-02 20:14:54.221  INFO 9168 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Inside login() Email is: mytestmail301
+2022-09-02 20:14:59.389  INFO 9168 --- [http-nio-8080-exec-10] c.a.f.controller.FlightController        : inside findFlights() From:AUS To:NYC DepartureDateMon Feb 05 00:00:00 IST 2018
+2022-09-02 20:14:59.403  INFO 9168 --- [http-nio-8080-exec-10] c.a.f.controller.FlightController        : Flight founds are: [Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 03:14:07.0], Flight [flightNumber=AA2, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 05:14:07.0], Flight [flightNumber=AA3, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 06:14:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 07:14:07.0]]
+2022-09-02 20:15:00.926  INFO 9168 --- [http-nio-8080-exec-9] c.a.f.controller.ReservationController   : Inside showCompleteReservation() invoked with the flight id:1
+2022-09-02 20:15:00.936  INFO 9168 --- [http-nio-8080-exec-9] c.a.f.controller.ReservationController   : Flight is:Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 03:14:07.0]
+2022-09-02 20:15:15.798  INFO 9168 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-02 20:15:15.825  INFO 9168 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 20:15:15.828  INFO 9168 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-02 20:15:15.841  INFO 9168 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
