@@ -2,8 +2,10 @@ package com.akash.flightreservation.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "reservation")
 public class Reservation extends AbstractEntity {
 
 	private Boolean checkedIn;

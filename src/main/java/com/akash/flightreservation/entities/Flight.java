@@ -4,12 +4,10 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-
-import org.springframework.format.annotation.DateTimeFormat;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "flight")
 public class Flight extends AbstractEntity {
 
 	private String flightNumber;

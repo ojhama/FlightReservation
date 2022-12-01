@@ -1,8 +1,10 @@
 package com.akash.flightreservation.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "passenger")
 public class Passenger extends AbstractEntity {
 
 	private String firstName;
